@@ -6,171 +6,131 @@ A web-based **Employee Task Management System** designed to help organizations m
 
 ---
 
-## 🚀 Features
+## 🚀 Overview
+
+The Employee Task Management System provides a centralized platform for managing employees and their assigned work.
+
+Instead of depending on spreadsheets, messages, or manual tracking, ETMS allows administrators and teams to manage employee information, assign tasks, update task status, and monitor overall progress from a single dashboard.
+
+---
+
+## ✨ Features
 
 ### 👤 Employee Management
 
-* Manage employee information
+* Add and manage employee information
 * View employee details
-* Organize employees within the system
-* Easy access to employee-related information
+* Organize employee records
+* Centralized employee management
 
 ### 📝 Task Management
 
 * Create and assign tasks
-* Set task details and priorities
+* Define task details and priorities
 * Track assigned tasks
 * Update task status
 * Monitor task completion
 
-### 📊 Task Tracking
+### 📊 Progress Tracking
 
-* View pending, ongoing, and completed tasks
-* Track employee progress
-* Monitor overall task activity
-* Improve visibility of work status
+* View pending tasks
+* Track ongoing work
+* Monitor completed tasks
+* View overall task activity
+* Improve visibility of team workload
+
+### 📈 Dashboard
+
+* Centralized overview of employee activity
+* Task progress monitoring
+* Quick access to important information
+* Simple and responsive interface
 
 ### 🔐 User-Friendly Interface
 
-* Clean and intuitive dashboard
+* Clean dashboard
+* Responsive design
 * Simple navigation
-* Responsive web interface
-* Centralized task management
-
----
-
-## 🎯 Purpose
-
-The main objective of ETMS is to provide a simple and centralized solution for managing employee tasks.
-
-Instead of relying on spreadsheets, messages, or manual tracking, employees and administrators can use the platform to:
-
-* Assign work efficiently
-* Track task progress
-* Manage workloads
-* Improve team coordination
-* Monitor completed and pending work
-
----
-
-## 🛠️ Technologies
-
-> Update this section if your actual project uses a specific stack.
-
-* **Frontend:** HTML, CSS, JavaScript
-* **Backend:** Web Application Backend
-* **Database:** Database Management System
-* **UI:** Responsive Web Interface
+* Organized workflow
 
 ---
 
 ## 🏗️ System Workflow
 
 ```text
-                ┌─────────────────────┐
-                │       Admin         │
-                └──────────┬──────────┘
-                           │
-                           ▼
-                ┌─────────────────────┐
-                │ Manage Employees     │
-                └──────────┬──────────┘
-                           │
-                           ▼
-                ┌─────────────────────┐
-                │ Create / Assign     │
-                │ Tasks               │
-                └──────────┬──────────┘
-                           │
-                           ▼
-                ┌─────────────────────┐
-                │      Employee       │
-                └──────────┬──────────┘
-                           │
-                           ▼
-                ┌─────────────────────┐
-                │ Update Task Status  │
-                └──────────┬──────────┘
-                           │
-                           ▼
-                ┌─────────────────────┐
-                │ Track Progress &    │
-                │ Completion          │
-                └─────────────────────┘
+                 ┌─────────────────┐
+                 │      Admin      │
+                 └────────┬────────┘
+                          │
+                          ▼
+                ┌───────────────────┐
+                │ Manage Employees  │
+                └─────────┬─────────┘
+                          │
+                          ▼
+                ┌───────────────────┐
+                │ Create / Assign   │
+                │      Tasks        │
+                └─────────┬─────────┘
+                          │
+                          ▼
+                ┌───────────────────┐
+                │     Employee      │
+                └─────────┬─────────┘
+                          │
+                          ▼
+                ┌───────────────────┐
+                │ Update Task Status│
+                └─────────┬─────────┘
+                          │
+                          ▼
+                ┌───────────────────┐
+                │ Track Progress &  │
+                │    Completion     │
+                └───────────────────┘
 ```
 
 ---
 
-## 📌 Key Modules
+## 🧩 Main Modules
 
-| Module                 | Description                 |
-| ---------------------- | --------------------------- |
-| 👥 Employee Management | Manage employee information |
-| 📋 Task Management     | Create and assign tasks     |
-| 🔄 Task Status         | Track task progress         |
-| 📊 Dashboard           | View overall task activity  |
-| 👤 User Management     | Manage system users         |
-| 📈 Progress Tracking   | Monitor task completion     |
-
----
-
-## 💡 Use Cases
-
-ETMS can be useful for:
-
-* 🏢 Small and medium-sized organizations
-* 👨‍💻 Software development teams
-* 📚 Academic/project teams
-* 🏭 Business operations
-* 👥 Team-based projects
-* 📋 Internal task tracking
+| Module              | Purpose                     |
+| ------------------- | --------------------------- |
+| Employee Management | Manage employee information |
+| Task Management     | Create and assign tasks     |
+| Task Tracking       | Monitor task status         |
+| Dashboard           | View overall activity       |
+| Progress Tracking   | Monitor completion          |
+| User Management     | Manage application users    |
 
 ---
 
-## 🌟 Advantages
+## 🛠️ Technology Stack
 
-* Centralized task management
-* Reduces manual task tracking
-* Improves team coordination
-* Provides better visibility of employee workload
-* Makes task progress easier to monitor
-* Simple and user-friendly interface
-
----
-
-## 🔮 Future Enhancements
-
-Possible future improvements include:
-
-* 🔔 Real-time task notifications
-* 📧 Email notifications
-* 📅 Task deadlines and reminders
-* 📊 Advanced analytics and reports
-* 🔐 Role-based access control
-* 💬 Employee-manager communication
-* 📎 File attachments
-* 🌓 Dark mode
-* 📱 Progressive Web App / mobile support
-* 🤖 AI-powered task prioritization
+* **Frontend:** React + TypeScript
+* **Build Tool:** Vite
+* **Styling:** CSS
+* **Application Architecture:** Component-based web application
+* **Deployment:** AI Studio
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots of the application here:
+## 📂 Project Structure
 
 ```text
-screenshots/
-├── dashboard.png
-├── employees.png
-├── tasks.png
-└── task-details.png
-```
-
-Example:
-
-```markdown
-![Dashboard](screenshots/dashboard.png)
+Employee-Task-Management-System/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   └── ...
+├── public/
+├── employee-task-portal/
+├── .env.example
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
 ```
 
 ---
@@ -180,45 +140,71 @@ Example:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/MrunalAiNexus/Employee-Task-Management-System.git
+cd Employee-Task-Management-System
 ```
 
-### 2. Navigate to the project
-
-```bash
-cd your-repository
-```
-
-### 3. Install dependencies
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-> If your project uses a different technology stack, replace this step with the appropriate installation command.
+### 3. Configure environment variables
 
-### 4. Start the application
+Create a `.env` file using the provided `.env.example` file.
 
 ```bash
-npm start
+cp .env.example .env
 ```
+
+Add the required configuration values.
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL provided by Vite.
 
 ---
 
-## 🌐 Live Application
-
-The project is deployed and available online:
+## 🌐 Live Demo
 
 **https://etms-mrunal.ai.studio/**
 
 ---
 
-## 👨‍💻 Developer
+## 🎯 Use Cases
 
-Developed as a web-based Employee Task Management solution focused on simplifying task assignment, employee coordination, and progress tracking.
+ETMS can be used for:
+
+* Small and medium-sized organizations
+* Software development teams
+* Academic project teams
+* Internal company task management
+* Team-based projects
+* Employee workload tracking
 
 ---
 
-## 📄 License
+## 🔮 Future Enhancements
 
-This project is intended for educational and project-development purposes.
+* Real-time task notifications
+* Email notifications
+* Task deadlines and reminders
+* Advanced analytics
+* Role-based access control
+* File attachments
+* Employee-manager communication
+* Mobile/PWA support
+* AI-based task prioritization
+
+---
+
+## 👩‍💻 Author
+
+**Mrunal**
+
+GitHub: https://github.com/MrunalAiNexus
