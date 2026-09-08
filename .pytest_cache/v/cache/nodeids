@@ -1,0 +1,17 @@
+[
+  "employee-task-portal/backend/tests/test_api.py::test_dashboard_stats",
+  "employee-task-portal/backend/tests/test_api.py::test_employee_creation",
+  "employee-task-portal/backend/tests/test_api.py::test_employee_duplicate_email",
+  "employee-task-portal/backend/tests/test_api.py::test_employee_retrieval_and_search",
+  "employee-task-portal/backend/tests/test_api.py::test_employee_update_and_delete",
+  "employee-task-portal/backend/tests/test_api.py::test_login_invalid_credentials",
+  "employee-task-portal/backend/tests/test_api.py::test_login_success",
+  "employee-task-portal/backend/tests/test_api.py::test_notifications_on_task_assignment_and_status_update",
+  "employee-task-portal/backend/tests/test_api.py::test_regular_user_assigned_tasks_and_status_update",
+  "employee-task-portal/backend/tests/test_api.py::test_role_based_permissions_regular_user_cannot_create_employee",
+  "employee-task-portal/backend/tests/test_api.py::test_role_based_permissions_regular_user_cannot_create_or_delete_task",
+  "employee-task-portal/backend/tests/test_api.py::test_task_assignment_to_nonexistent_employee",
+  "employee-task-portal/backend/tests/test_api.py::test_task_creation_and_assignment",
+  "employee-task-portal/backend/tests/test_api.py::test_task_filtering_and_search",
+  "employee-task-portal/backend/tests/test_api.py::test_task_status_update"
+]

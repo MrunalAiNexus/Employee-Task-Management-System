@@ -1,0 +1,6 @@
+{
+  "name": "Employee Task Management Portal",
+  "description": "Production-ready Employee Task Management Portal with Angular frontend, Flask REST API, and MySQL relational database.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
